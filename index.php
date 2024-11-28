@@ -145,10 +145,28 @@ echo "today is: $today <br>";
 // function 18/11/2024
 
 function greetMe() {
-    echo "good afternoon";
+    echo "good afternoon. <br>";
 }
 
 greetMe();
+
+function streetName ($streetName) {
+    echo "$streetName Asaba. <br>";
+}
+
+streetName("DLA");
+streetName("Ezenei");
+
+echo "<br>";
+
+function homeaddress ($snumber, $sname) {
+    echo "$snumber street $sname Asaba. <br>";
+}
+
+homeaddress("5th" ,"DLA");
+homeaddress("8th" ,"Ezenei");
+
+
 
 
 
